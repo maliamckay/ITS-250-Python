@@ -1,1 +1,62 @@
+##num = 1              # we have to initialize num
+##
+##while num <= 75:     # so that we can use it here
+##    print(num)
+##    num = num + 1    # don't forget to update                     # the loop variable
+##
+
+
+##num = 1              # this controls the start
+##while num <= 100:     # this controls the stop
+##    print(num)
+##    num = num + 1   # this controls the update
+##
+##
+##
+##
+####
+### This program calculates sales commissions.
+##
+### Create a variable to control the loop.
+##keep_going = 'y'
+##
+### Calculate a series of commissions.
+##while keep_going == 'y':
+##    # Get a salesperson's sales and commission rate.
+##    sales = float(input('Enter the amount of sales: '))
+##    comm_rate = float(input('Enter the commission rate: '))
+##
+##    # Calculate the commission.
+##    commission = sales * comm_rate
+##
+##    # Display the commission.
+##    print('The commission is $', \
+##          format(commission, ',.2f'), sep='')
+##
+##    # See if the user wants to do another one.
+##    keep_going = input('Do you want to calculate another ' + \
+####                       'commission (Enter y for yes): ')
+##
+##militaryTime = 1000
+##
+##while (militaryTime < 1200):
+##    print("Good morning!")
+##    militaryTime = militaryTime + 100
+##
+####
+####
+####savings = 0
+####while savings < 1000:
+####    # full-time job pays out
+####    savings += 500
+######    # freelancing job pays out
+######    savings += 150
+####print("savings is", savings)
+##
+##age = int(input("How old are you? "))
+##while age < 18:   # can't vote until 18
+##    print("You can't vote at age", age)
+##
+##print("Now you can vote! Yay!")
+
 
